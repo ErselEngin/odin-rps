@@ -5,11 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor</title>
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <h1 id="title">Rock, Paper, Scissors Game!</h1>
+    <div class="gameContent">
+        <h2 id="pTitle">You</h2>
+        <div class="playerButtons">
+            <button class="playerChoice">Rock</button>
+            <Button class="playerChoice">Paper</Button>
+            <button class="playerChoice">Scissors</button>
+        </div>
+        <h2 id="compTitle">Computer</h2>
+        <div class="computerButtons">
+            <button id="compRock">Rock</button>
+            <button id="compPaper">Paper</button>
+            <button id="compScissors">Scissors</button>
+        </div>
+        <div class="results"></div>
 
+    </div>
 </body>
 
 </html>

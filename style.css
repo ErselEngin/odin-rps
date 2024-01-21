@@ -1,0 +1,43 @@
+#title{
+    text-align: center;
+    margin: 50px;
+}
+
+.gameContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+}
+
+.playerButtons,
+.computerButtons{
+    display: flex;
+    gap: 24px;
+}
+
+.computerButtons{
+    pointer-events: none;
+}
+
+button{
+    padding: 16px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#compTitle{
+    margin-top: 80px;
+}
+
+.results{
+    font-size: 40px;
+    margin: 100px;
+    padding: 16px;
+    border: 2px black dashed;
+}
+
+.results:empty{
+    display: none;
+}
